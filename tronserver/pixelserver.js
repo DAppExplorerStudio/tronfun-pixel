@@ -11,7 +11,7 @@ var solidityNode = new HttpProvider('https://api.trongrid.io');
 var eventServer = 'https://api.trongrid.io';
 
 var privateKey = '';
-var artifacts = JSON.parse(fs.readFileSync(path.join(__dirname, './../build/contracts/Token.json'), 'utf-8'));
+var artifacts = ''; // import your contract json file
 
 var tronWeb = new TronWeb(
   fullNode,
