@@ -1,0 +1,27 @@
+{
+  "name": "tronfun-pixel",
+  "version": "1.0.0",
+  "description": "tronfun-pixel",
+  "private": true,
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-dice-node",
+  },
+  "dependencies": {
+    "egg": "2.9.1",
+    "egg-scripts": "^2.5.0",
+    "egg-view-nunjucks": "^2.2.0",
+    "lodash": "^4.17.11",
+    "md5": "^2.2.1",
+    "tronweb": "^2.1.9"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
