@@ -2,7 +2,7 @@
 A pixel game based on the TRON protocol which made by tronfun.io team
 
 ## Project Document
-The game contract is developed by solidity based on the TRON protocol.  
+The game's contract is developed by solidity based on the TRON protocol.  
 The game's client side and server side are developed by javascript and node.js.
 
 ### contract code
